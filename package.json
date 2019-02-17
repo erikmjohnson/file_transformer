@@ -1,0 +1,26 @@
+{
+  "name": "file_transformer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikmjohnson/file_transformer.git"
+  },
+  "keywords": [],
+  "author": "Erik M. Johnson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erikmjohnson/file_transformer/issues"
+  },
+  "homepage": "https://github.com/erikmjohnson/file_transformer#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "jest": "^24.1.0",
+    "os": "^0.1.1"
+  }
+}
