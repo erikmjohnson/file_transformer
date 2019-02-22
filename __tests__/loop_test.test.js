@@ -20,10 +20,10 @@ const letsGitStringy = (buf) => {
 describe('Testing Functions', () => {
   it('Can it transfer string into Dec', () => {
     buffOut('test');
-    expect(newCode).toEqual([116, 101, 115, 116, 10])
+    expect(newCode).toEqual([116, 101, 115, 116, 10]);
   });
   it('Can new code come back as a string', () => {
     letsGitStringy(buffer);
     expect(buffer.length).toEqual(5);
-  })
+  });
 });
