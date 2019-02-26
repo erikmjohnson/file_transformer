@@ -4,7 +4,7 @@ const os = require('os');
 const fs = require('fs');
 //GLOBAL VARIABLES
 const newCode = [];
-let codeLine1 = "'use strict;'";
+let codeLine1 = "'use strict';";
 let codeLine2 = "const peopleNames = ['Erik', 'Nikki', 'Rick'];";
 let codeLine3 = "peopleNames.forEach(x => console.log(x));";
 let buffer = Buffer.alloc(103);
